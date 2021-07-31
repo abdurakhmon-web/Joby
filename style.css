@@ -1,0 +1,72 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+header{
+    background: url(./images/header-bg_01.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+header .bg-light{
+    background: #5bbc2e !important;
+}
+
+header .navbar .navbar-brand{
+    margin-left: 40px;
+}
+
+header .navbar .navbar-nav{
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 95px !important;
+}
+header .navbar .navbar-nav .nav-item{
+    margin-right: 36px;
+}
+
+header .navbar-light .navbar-nav .nav-link{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+}
+header .navbar-light .navbar-nav .nav-btn{
+    padding: 15px 11px 14px 15px;
+    background: #409d16;
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    transition: 0.4s ease;
+}
+header .navbar-light .navbar-nav .nav-btn:hover{
+    color: #000;
+    background: #fff;
+}
+
+.header__text{
+    margin-top: 250px !important;
+}
+
+.header__title{
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #5bbc2e;
+}
+
+.header__title::after{
+    content: "";
+    display: block;
+    margin-top: 30px;
+    width: 100%;
+    height: 1px;
+    background-color: #b2b2b2;
+}
+.header__span{
+    color: #000;
+}
