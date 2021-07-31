@@ -4,9 +4,13 @@ body{
 }
 
 header{
-    background: url(./images/header-bg_01.jpg) no-repeat;
-    background-size: cover;
+    background: url(./images/header-bg_01.jpg) no-repeat center / cover;
     height: 100vh;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
 }
 
 header .bg-light{
@@ -49,7 +53,7 @@ header .navbar-light .navbar-nav .nav-btn:hover{
 }
 
 .header__text{
-    margin-top: 250px !important;
+    padding: 257px 0 150px;
 }
 
 .header__title{
@@ -69,4 +73,155 @@ header .navbar-light .navbar-nav .nav-btn:hover{
 }
 .header__span{
     color: #000;
+}
+
+.header__subtitle{
+    font-size: 18px;
+    color: #b2b2b2;
+    margin: 20px 0 47px;
+}
+
+.header__btn{
+    padding: 22px 164px 19px;
+    background: #5bbc2e;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+
+.services{
+    padding: 90px 0 150px;
+}
+
+.joby__title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.joby__span{
+    color: #5bbc2e;
+}
+
+.joby__subtitle{
+    font-size: 12px;
+    line-height: 24px;
+    color: #515151;
+}
+.joby__icon{
+    padding: 0 32px;
+}
+.joby__img{
+    margin-bottom: 40px;
+}
+.joby__icon-title{
+    font-size: 14px;
+    font-weight: 600;
+    color: #5bbc2e;
+    margin-bottom: 30px;
+}
+
+.team{
+    padding: 76px 0 80px;
+    background: #f5f5f5;
+}
+
+.joby__title2{
+    font-size: 30px;
+    font-weight: 900;
+    color: #515151;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.joby__subtitle2{
+    font-size: 14px;
+    color: #767575;
+    line-height: 24px;
+}
+
+.team2{
+    padding: 50px 0;
+}
+
+.partners{
+    padding: 120px 0;
+    background: #f5f5f5;
+}
+
+.work{
+    padding: 110px 0 125px;
+}
+
+.joby__work-box{
+    border: 1px solid #f5f5f5;
+}
+
+.joby__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 35px;
+    margin-top: -10px;
+    margin-bottom: 25px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.joby__link[color="blue"]{
+    background: #2ca7e0;
+}
+.joby__link[color="green"]{
+    background: #5bbc2e;
+}
+.joby__link[color="purple"]{
+    background: #c42fc9;
+}
+.joby__link[color="yellow"]{
+    background: #dac00e;
+}
+
+.joby__subtitle3{
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.workers{
+    padding: 95px 0 115px;
+    background: url('./images/team-bg.jpg') no-repeat;
+    background-size: cover;
+}
+
+.joby__workers-box{
+    background: #fff;
+}
+
+.joby__workers-avatar{
+    margin: 35px 0 22px;
+}
+
+.joby__workers-name{
+    font-size: 14px;
+    font-weight: 800;
+    color: #7e7e7e;
+    text-transform: uppercase;
+}
+
+.joby__workers-job{
+    font-size: 12px;
+    color: #7e7e7e;
+    text-transform: uppercase;
+}
+
+.build-team{
+    padding: 135px 0 100px;
 }
