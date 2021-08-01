@@ -5,7 +5,6 @@ body{
 
 header{
     background: url(./images/header-bg_01.jpg) no-repeat center / cover;
-    height: 100vh;
 }
 
 img{
@@ -224,4 +223,36 @@ header .navbar-light .navbar-nav .nav-btn:hover{
 
 .build-team{
     padding: 135px 0 100px;
+}
+
+.numbers{
+    padding: 73px 0px;
+    background: #b6b6b6;
+    color: #f0f0f0;
+}
+
+.joby__numbers-title{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 27px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.joby__numbers-title::after{
+    content: "";
+    display: block;
+    width: 50%;
+    height: 1px;
+    background: #f0f0f0;
+    margin-top: 14px;   
+}
+.joby__numbers-subtitle{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.brands{
+    padding: 100px 0 200px;
+    background: #242424;
 }
