@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
     <title>JOB FINDER</title>
 </head>
@@ -20,7 +21,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="sticky-navbar">
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#">Freelancers</a>
                     </li>
@@ -373,9 +374,101 @@
         </div>
     </section>
 
+    <section class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="joby__contact m-auto text-center col-lg-8">
+                    <h3 class="joby__contact-title">If you have any question about our services ?</h3>
+                    <button class="joby__contact-btn">CONTACT US</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="joby__footer-top m-auto text-center col-lg-7">
+                    <img class="joby__footer-img" src="./images/footer-logo_03.png" alt="">
+                    <p class="joby__subtitle mt-4 mb-4">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique</p>
+                    <div class="joby__footer-icons col-lg-6 m-auto d-flex justify-content-between">
+                        <a class="joby__footer-link" href="#"><i class="joby__footer-icon bx bxl-facebook"></i></a>
+                        <a class="joby__footer-link" href="#"><i class="joby__footer-icon bx bxl-twitter" ></i></a>
+                        <a class="joby__footer-link" href="#"><i class="joby__footer-icon bx bxl-google-plus" ></i></a>
+                        <a class="joby__footer-link" href="#"><i class="joby__footer-icon bx bxl-dribbble" ></i></a>
+                        <a class="joby__footer-link" href="#"><i class="joby__footer-icon bx bxl-pinterest" ></i></a>
+                        <a class="joby__footer-link" href="#"><i class="joby__footer-icon bx bxl-github" ></i></a>
+                    </div>
+                </div>
+
+                <div class="joby__footer-bottom d-flex justify-content-between mt-5 mb-5">
+                    <div class="joby__footer-info col-lg-3">
+                        <p class="joby__footer-subtitle">Contact Infomation</p>
+                        <div class="joby__footer-text">
+                            <p class="joby__subtitle" style="color: #5bbc2e; font-weight: 700;">JOB BOARD HEAD QUARER</p>
+                            <p class="joby__subtitle">1234 Heaven Stress, Beverly Hill OldYork- United State
+                                Phone: (800) 0123 4567 890
+                                Email: mike@webworldpk.com</p>
+                        </div>
+                        <div class="joby__footer-text">
+                            <p class="joby__subtitle" style="color: #5bbc2e; font-weight: 700;">NEW YORK OFFICE</p>
+                            <p class="joby__subtitle">Madina Colony, BGP, Lahore <br>
+                                Punjab, 54600 <br>
+                                Pakistan</p>
+                        </div>
+                    </div>
+
+                    <div class="joby__footer-info col-lg-2">
+                        <p class="joby__footer-subtitle">USERFUL LINK</p>
+                        <div class="joby__footer-navbar">
+                            <ul class="joby__footer-nav">
+                                <li class="joby__nav-item"><a class="joby__footer-link2" href="#">Site Map</a></li>
+                                <li class="joby__nav-item"><a class="joby__footer-link2" href="#">Search Terms</a></li>
+                                <li class="joby__nav-item"><a class="joby__footer-link2" href="#">Advanced Search</a></li>
+                                <li class="joby__nav-item"><a class="joby__footer-link2" href="#">About Us</a></li>
+                                <li class="joby__nav-item"><a class="joby__footer-link2" href="#">Suppliers</a></li>
+                                <li class="joby__nav-item"><a class="joby__footer-link2" href="#">Our stores</a></li>
+                                <li class="joby__nav-item"><a class="joby__footer-link2" href="#">FAQs</a></li>
+                                <li class="joby__nav-item"><a class="joby__footer-link2" href="#">Payment</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="joby__footer-info col-lg-3">
+                        <p class="joby__footer-subtitle">TIWTTER BLOCK</p>
+                        <div class="joby__footer-text">
+                            <p class="joby__subtitle">Looking for an awesome JOAB BOARD Landing page? Mike updated and optimized to run even better. Find it here: http://t.co/0WxABQCQ48</p>
+                            <p class="joby__subtitle" style="color: #303030;"><i class="joby__footer-icon2 bx bxl-twitter"></i>1 day ago</p>
+                        </div>
+                        <div class="joby__footer-text">
+                            <p class="joby__subtitle">Looking for an awesome JOAB BOARD Landing page? Mike updated and optimized to run even better. Find it here: http://t.co/0WxABQCQ48</p>
+                            <p class="joby__subtitle" style="color: #303030;"><i class="joby__footer-icon2 bx bxl-twitter"></i>1 day ago</p>
+                        </div>
+                    </div>
+
+                    <div class="joby__footer-images col-lg-3">
+                        <p class="joby__footer-subtitle">LATEST FROM BLOG</p>
+                        <div class="joby__footer-img mt-5">
+                            <img src="./images/footer-img_03.jpg" alt="">
+                            <img src="./images/footer-img_03.jpg" alt="">
+                            <img src="./images/footer-img_03.jpg" alt="">
+                            <img class="mt-1" src="./images/footer-img_03.jpg" alt="">
+                            <img class="mt-1" src="./images/footer-img_03.jpg" alt="">
+                            <img class="mt-1" src="./images/footer-img_03.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <p class="joby__subtitle mt-5">© 2021 JOB BOARD LANDING PAGE BY ABDURAKHMON</p>
+            </div>
+        </div>
+    </footer>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

@@ -1,10 +1,17 @@
+*{  
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
 body{
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
 }
 
 header{
-    background: url(./images/header-bg_01.jpg) no-repeat center / cover;
+    background: url(./images/header-bg_01.jpg) no-repeat center center / cover;
+    min-height: 1000px;
 }
 
 img{
@@ -255,4 +262,91 @@ header .navbar-light .navbar-nav .nav-btn:hover{
 .brands{
     padding: 100px 0 200px;
     background: #242424;
+}
+
+.contact{
+    padding: 50px 0;
+    background: #262626;
+    color: #f0f0f0;
+}
+
+.joby__contact-title{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.joby__contact-btn{
+    padding: 21px 50px;
+    background: transparent;
+    border: 2px solid #f0f0f0;
+    color: #f0f0f0;
+    font-size: 12px;
+    font-weight: 500;
+    transition: .4s;
+}
+
+.joby__contact-btn:hover{
+    background: #f0f0f0;
+    color: #262626;
+}
+
+footer{
+    padding: 60px 0 30px;
+    background: #141414;
+}
+
+.joby__footer-link{
+    text-decoration: none;
+    color: #515151;
+}
+
+.joby__footer-icon{
+    padding: 13px 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #515151;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px;
+    transition: .4s;
+}
+.joby__footer-icon:hover{
+    background: #5bbc2e;
+    color: #fff;
+}
+
+.joby__footer-subtitle{
+    font-size: 12px;
+    color: #f0f0f0;
+    text-transform: uppercase;
+}
+.joby__footer-subtitle::after{
+    content: "";
+    display: block;
+    width: 41%;
+    height: 1px;
+    background: #3b3b3b;
+    margin-top: 20px;
+}
+.joby__footer-nav{
+    padding: 0;
+}
+.joby__nav-item{
+    margin-bottom: 8px;
+}
+.joby__footer-link2{
+    font-size: 12px;
+    color: #515151;
+    text-decoration: none;
+}
+.joby__footer-link2:hover{
+    color: #5bbc2e;
+    text-decoration: underline;
+}
+
+.joby__footer-icon2{
+    margin-right: 21px;
 }
