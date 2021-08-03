@@ -387,6 +387,19 @@ footer{
 @media (max-width: 576px) {
 
 }
+
+@media (max-width: 393px) {
+    .header__title{
+        font-size: 43px;
+    }
+    .header__btn{
+        padding: 22px 88px 19px;
+    }
+    .joby__title{
+        font-size: 40px;
+    }
+}
+
 @media (max-width: 320px) {
     .header__title{
         font-size: 43px;
