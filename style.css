@@ -389,6 +389,9 @@ footer{
 }
 
 @media (max-width: 393px) {
+    .header__text{
+        padding: 322px 0 150px;
+    }
     .header__title{
         font-size: 43px;
     }
@@ -401,6 +404,9 @@ footer{
 }
 
 @media (max-width: 320px) {
+    .header__text{
+        padding: 322px 0 150px;
+    }
     .header__title{
         font-size: 43px;
     }
